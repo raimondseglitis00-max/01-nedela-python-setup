@@ -1,0 +1,34 @@
+ALGORITMS GRAUZDĒTA_SVIESTMAIZE
+
+SĀKT
+
+	1. Grauzdē maizi
+GRAUZDĒT maizi
+
+	2. Sviesta izvēle
+IZVADĪT "Vai uzsmērēt sviestu? (jā/nē)"
+IEVADĪT sviests
+
+JA sviests = "jā" TAD
+    UZSMĒRĒT sviestu
+BEIGAS_JA
+
+	3. Desas izvēle
+IZVADĪT "Vai pievienot desu? (jā/nē)"
+IEVADĪT desa
+
+JA desa = "jā" TAD
+    UZLIKT desu uz maizes
+BEIGAS_JA
+
+	4. Siera izvēle
+IZVADĪT "Vai pievienot sieru? (jā/nē)"
+IEVADĪT siers
+
+JA siers = "jā" TAD
+    UZLIKT sieru uz maizes
+BEIGAS_JA
+
+	5. Noslēgums
+IZVADĪT "Grauzdēta sviestmaize gatava!"
+BEIGT
